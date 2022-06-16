@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import FadeHome from '../components/Homepage/FadeHome'
 function HomePage() {
   return (
     <>
@@ -6,7 +7,10 @@ function HomePage() {
         <Head>
           <title>Starter Template</title>
         </Head>
-        <div>Content Here</div> <div>Content Here</div> <div>Content Here</div>
+        <div>Content Here</div>
+        <div>
+          <FadeHome />
+        </div>
         <div>Footer below here</div>
       </div>
     </>
